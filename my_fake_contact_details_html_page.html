@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Fake Contact Details WebPage</title>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <hr>
+    <h3>My Fake Contact Details:</h3>
+    <table cellspacing="50;" style="padding: 5px; text-align: center;">
+      <tr>
+        <th>E-Mail Adrress:</th>
+        <td>someone@gmail.come</td>
+      </tr>
+      <tr>
+        <th>Phone Number:</th>
+        <td>08764336788</td>
+      </tr>
+      <tr>
+        <th>Address:</th>
+        <td>Earth</td>
+      </tr>
+    </table>
+    <hr>
+    <h3>Feel Free To Contact Me:</h3>
+    <form action="mailto:" method="post" enctype="text/plain" id="usrform">
+      <label>Your First Name:</label>
+      <input type="text" name="firstName" value="">
+      <br>
+      <label>Your Last Name:</label>
+      <input type="text" name="lastName" value="">
+      <br>
+      <label for="get_email">Your Email:</label>
+      <input type="text" name="the_sender_email_address" id="get_email">
+      <br>
+      <br>
+      <textarea rows="4" cols="50" name="comment" form="usrform">
+        Enter Your Message here...
+      </textarea>
+      <input type="submit" value="SEND">
+    </form>
+  </body>
+</html>
